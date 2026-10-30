@@ -1,0 +1,98 @@
+git status
+git add .
+git status
+git commit -m "Add Day 2 Strings practice"
+git push origin main
+
+
+
+If you accidentally delete Python files, PDFs, notebooks, or other files from your Mac, you can recover them from GitHub—as long as those files were previously committed and pushed.
+
+Let's go through the common situations.
+1. Recover one accidentally deleted file
+Suppose you accidentally delete:
+
+Week-01-Python-Fundamentals/Day-01-Variables-and-Data-Types/day01_hello.py
+
+First, check Git status:
+git status
+
+
+You may see:
+deleted: Week-01-Python-Fundamentals/Day-01-Variables-and-Data-Types/day01_hello.py
+
+
+To recover it:
+git restore Week-01-Python-Fundamentals/Day-01-Variables-and-Data-Types/day01_hello.py
+
+
+That's it! The file will be restored from the latest committed version.
+2. Recover multiple deleted files
+Suppose you accidentally delete multiple files.
+
+To restore all deleted and modified tracked files to their latest committed versions:
+git restore .
+
+
+
+Be careful
+ This also discards your uncommitted modifications to tracked files. It does not recover untracked files.
+3. Recover an entire deleted folder
+Suppose you accidentally delete:
+
+Week-01-Python-Fundamentals/Day-02-Strings/
+
+Run:
+git restore Week-01-Python-Fundamentals/Day-02-Strings/
+
+
+Git will restore the tracked files inside that folder.
+4. What if you deleted files and already committed the deletion?
+Even then, you can recover them.
+
+First, identify the previous commit:
+git log --oneline -5
+
+
+You can restore a file from a specific commit:
+git restore --source=HEAD~1 -- path/to/your/file.py
+
+
+This restores the file's previous version into your working directory. You can then commit and push it again.
+5. What if you want to download everything again from GitHub?
+If your entire local repository is damaged or deleted, you can clone it again.
+cd ~/Developer
+
+git clone https://github.com/sanketmoralwar-datascience/Learning-Python.git
+
+
+This creates a fresh local copy of the latest pushed repository.
+
+Remember: you'll need to recreate your .venv and install dependencies afterward.
+
+Quick Git recovery reference
+Situation	Command
+Recover one deleted file	git restore filename.py
+Recover one deleted folder	git restore folder-name/
+Recover all tracked changes	git restore .
+View commit history	git log --oneline -5
+Recover from an older commit	git restore --source=HEAD~1 -- filename.py
+Download repository again	git clone repository-url
+
+Important: Understand what Git can recover
+File situation	Can Git recover it?
+Committed and pushed to GitHub	Yes
+Committed locally but not pushed	Yes , from local Git history
+Created but never committed	Usually no
+Deleted before ever being committed	No
+
+My golden rule for your learning repository:
+
+Whenever you finish a day's Python practice:
+1. Save your Python files.
+2. Run git add .
+3. Run git commit -m "Complete Day X practice"
+4. Run git push origin main
+This way, your completed work is safely stored on GitHub, even if something happens to your Mac.
+
+One additional tip: Git is version control, not a complete backup system. Keep important documents backed up separately too.

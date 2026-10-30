@@ -1,58 +1,264 @@
-# Learning-Python
-Python Programming Roadmap
-My 12-week learning path from Python basics to machine learning.
+# Python Learning Journey – 30 Days of Preparation for Generative AI
 
-## Contents
-| Topic | Notebooks | Status |
-|---|---|---|
-| 01 Python Basics | [Folder](01-python-basics/) | In Progress |
-| 02 NumPy & Pandas | [Folder](02-numpy-pandas/) | Not started |
-| 03 Visualization | [Folder](03-visualization/) | Not started |
-| 04 SQL | [Folder](04-sql/) | Not started |
-| 05 Statistics | [Folder](05-statistics/) | Not started |
-| 06 Machine Learning | [Folder](06-machine-learning/) | Not started |
+## 📌 Project Overview
 
+Welcome to my Python Learning Repository!
 
-# My Game Plan
-With 2-3 hours a day (about 15-20 hours a week), you can compress the earlier path into roughly **12 weeks**. That's enough to be competent with the core toolkit and have projects to show, though not to be an expert.
+This repository documents my 30-day journey to strengthen my Python programming skills and build a foundation for learning Generative AI.
 
-## 12-week plan
+The goal is to learn Python fundamentals, programming concepts, data science, machine learning basics, and essential Generative AI concepts through hands-on practice.
 
-**Weeks 1-3: Python fundamentals**
-- Work through **CS50P** at an accelerated pace, doing every problem set. Watch lectures at 1.25x speed.
-- Skip Exercism for now, and use the problem sets as your practice.
-- By the end you should be able to write functions, use loops, lists, dictionaries, and read/write files without looking things up constantly.
+I will maintain Python programs, Jupyter notebooks, learning notes, exercises, and mini-projects throughout this journey.
 
-**Weeks 4-6: Data toolkit and SQL**
-- **Kaggle Learn:** Pandas, Data Visualization, and Data Cleaning (each takes a few hours).
-- **NumPy basics** from the first chapters of *Python for Data Analysis* (free online).
-- **SQL:** Kaggle's Intro to SQL, then Mode's SQL tutorial. Spend about 3-4 days on this.
-- Finish with **mini project #1**: pick a dataset you find interesting, clean it, and visualize 4-5 findings.
+## 🎯 Learning Objectives
 
-**Weeks 7-9: Statistics and machine learning**
-- **Statistics:** StatQuest on YouTube (Josh Starmer) is fast and clear. Cover distributions, hypothesis testing, confidence intervals, and regression. Use Khan Academy only for gaps.
-- **ML:** Kaggle's Intro to Machine Learning and Intermediate Machine Learning, then the first half of Andrew Ng's specialization for the intuition.
-- Practice with **scikit-learn** on every dataset you touch.
+- Strengthen Python programming fundamentals.
+- Understand data structures and control flow.
+- Learn functions, modules, file handling, and OOP.
+- Develop data analysis skills using NumPy and Pandas.
+- Understand basic machine learning concepts.
+- Learn how to work with APIs and Large Language Models (LLMs).
+- Explore prompt engineering, embeddings, vector databases, and RAG.
+- Build a foundation for Generative AI applications.
 
-**Weeks 10-12: Portfolio projects**
-- Do 2-3 end-to-end projects: question, data cleaning, exploration, model, written conclusions.
-- Enter a beginner Kaggle competition (Titanic or House Prices) to practice under a real benchmark.
-- Publish everything on **GitHub** with clear READMEs.
+## 📅 30-Day Learning Roadmap
 
-## Your daily 2-3 hours
+### Week 1 – Python Fundamentals
 
-- **30-60 min:** learn new material (video or reading)
-- **60-90 min:** hands-on coding with no tutorial open, struggling a bit on purpose
-- **15 min:** review what you did yesterday and write a quick note on what you learned
+| Day | Topic |
+|---|---|
+| Day 01 | Variables and Data Types |
+| Day 02 | Strings |
+| Day 03 | Lists and Tuples |
+| Day 04 | Dictionaries and Sets |
+| Day 05 | Operators |
+| Day 06 | Conditional Statements |
+| Day 07 | Loops |
 
-## How to actually go fast
+### Week 2 – Python Programming Concepts
 
-- **Code along, never just watch.** Passive watching feels fast but doesn't stick.
-- **Skip what you already know,** and don't aim for perfect understanding before moving on.
-- **Start projects early.** Wherever a stage ends, apply it immediately on a real dataset.
-- **Keep one resource per topic.** Switching between five courses is the biggest time-waster for fast learners.
-- **Use Claude as a tutor.** Ask it to explain errors, review your code, and quiz you, but write the code yourself first.
+| Day | Topic |
+|---|---|
+| Day 08 | Functions |
+| Day 09 | Modules and Packages |
+| Day 10 | File Handling |
+| Day 11 | Exception Handling |
+| Day 12 | Object-Oriented Programming Basics |
+| Day 13 | List and Dictionary Comprehensions |
+| Day 14 | Python Practice Projects |
 
-## A realistic expectation
+### Week 3 – Data Science and Machine Learning
 
-Twelve weeks like this will get you solid fundamentals and a portfolio. Landing a data science job usually takes longer (more projects, deeper stats, interview practice), so treat this as the foundation, not the finish line.
+| Day | Topic |
+|---|---|
+| Day 15 | NumPy |
+| Day 16 | Pandas |
+| Day 17 | Data Cleaning |
+| Day 18 | Data Visualization |
+| Day 19 | Statistics Basics |
+| Day 20 | Scikit-learn |
+| Day 21 | Data Science Mini Project |
+
+### Week 4 – Generative AI Fundamentals
+
+| Day | Topic |
+|---|---|
+| Day 22 | APIs and JSON |
+| Day 23 | Working with Large Language Models |
+| Day 24 | Prompt Engineering |
+| Day 25 | Embeddings |
+| Day 26 | Vector Databases |
+| Day 27 | Retrieval-Augmented Generation (RAG) |
+| Day 28 | LangChain Basics |
+| Day 29 | AI Agents Basics |
+| Day 30 | Mini Generative AI Project |
+
+## 📂 Repository Structure
+
+```text
+Learning-Python/
+│
+├── 01-python-basics/
+│
+├── Week-01-Python-Fundamentals/
+│   ├── Day-01-Variables-and-Data-Types/
+│   ├── Day-02-Strings/
+│   ├── Day-03-Lists-and-Tuples/
+│   ├── Day-04-Dictionaries-and-Sets/
+│   ├── Day-05-Operators/
+│   ├── Day-06-Conditions/
+│   └── Day-07-Loops/
+│
+├── Week-02-Programming/
+│   ├── Day-08-Functions/
+│   ├── Day-09-Modules-and-Packages/
+│   ├── Day-10-File-Handling/
+│   ├── Day-11-Exception-Handling/
+│   ├── Day-12-OOP-Basics/
+│   ├── Day-13-Comprehensions/
+│   └── Day-14-Practice-Projects/
+│
+├── Week-03-Data-Science/
+│   ├── Day-15-NumPy/
+│   ├── Day-16-Pandas/
+│   ├── Day-17-Data-Cleaning/
+│   ├── Day-18-Data-Visualization/
+│   ├── Day-19-Statistics-Basics/
+│   ├── Day-20-Scikit-Learn/
+│   └── Day-21-Mini-Project/
+│
+├── Week-04-GenAI/
+│   ├── Day-22-APIs-and-JSON/
+│   ├── Day-23-Working-with-LLMs/
+│   ├── Day-24-Prompt-Engineering/
+│   ├── Day-25-Embeddings/
+│   ├── Day-26-Vector-Databases/
+│   ├── Day-27-RAG-Basics/
+│   ├── Day-28-LangChain-Basics/
+│   ├── Day-29-AI-Agents-Basics/
+│   └── Day-30-Mini-GenAI-Project/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+## 🛠️ Technologies and Tools
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| VS Code | Code editor |
+| Jupyter Notebook | Interactive Python practice |
+| NumPy | Numerical computing |
+| Pandas | Data analysis |
+| Matplotlib | Data visualization |
+| Scikit-learn | Machine learning |
+| Requests | API communication |
+| python-dotenv | Environment variable management |
+| Git and GitHub | Version control and code management |
+
+## 💻 Development Environment Setup
+
+### Prerequisites
+
+- macOS
+- Python 3
+- Visual Studio Code
+- Git
+- GitHub account
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/sanketmoralwar-datascience/Learning-Python.git
+
+cd Learning-Python
+```
+
+### Step 2: Create a Virtual Environment
+
+```bash
+python3 -m venv .venv
+```
+
+### Step 3: Activate the Virtual Environment
+
+```bash
+source .venv/bin/activate
+```
+
+### Step 4: Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Step 5: Run a Python Program
+
+```bash
+python Week-01-Python-Fundamentals/Day-01-Variables-and-Data-Types/day01_hello.py
+```
+
+## 🔄 GitHub Synchronization
+
+The following commands are used to synchronize local changes with GitHub.
+
+```bash
+# Get the latest changes
+git pull origin main
+
+# Check modified files
+git status
+
+# Stage all changes
+git add .
+
+# Commit changes
+git commit -m "Add Python learning exercises"
+
+# Push changes to GitHub
+git push origin main
+```
+
+## 📈 Learning Progress Tracker
+
+I will update this checklist as I complete each topic.
+
+### Week 1 – Python Fundamentals
+
+- [ ] Day 01 – Variables and Data Types
+- [ ] Day 02 – Strings
+- [ ] Day 03 – Lists and Tuples
+- [ ] Day 04 – Dictionaries and Sets
+- [ ] Day 05 – Operators
+- [ ] Day 06 – Conditional Statements
+- [ ] Day 07 – Loops
+
+### Week 2 – Python Programming
+
+- [ ] Day 08 – Functions
+- [ ] Day 09 – Modules and Packages
+- [ ] Day 10 – File Handling
+- [ ] Day 11 – Exception Handling
+- [ ] Day 12 – OOP Basics
+- [ ] Day 13 – Comprehensions
+- [ ] Day 14 – Practice Projects
+
+### Week 3 – Data Science
+
+- [ ] Day 15 – NumPy
+- [ ] Day 16 – Pandas
+- [ ] Day 17 – Data Cleaning
+- [ ] Day 18 – Data Visualization
+- [ ] Day 19 – Statistics Basics
+- [ ] Day 20 – Scikit-learn
+- [ ] Day 21 – Mini Project
+
+### Week 4 – Generative AI
+
+- [ ] Day 22 – APIs and JSON
+- [ ] Day 23 – Working with LLMs
+- [ ] Day 24 – Prompt Engineering
+- [ ] Day 25 – Embeddings
+- [ ] Day 26 – Vector Databases
+- [ ] Day 27 – RAG Basics
+- [ ] Day 28 – LangChain Basics
+- [ ] Day 29 – AI Agents Basics
+- [ ] Day 30 – Mini GenAI Project
+
+## 🚀 Final Goal
+
+By the end of this 30-day learning journey, I aim to:
+
+- Become comfortable writing Python programs.
+- Work with Python libraries for data analysis.
+- Understand the fundamentals of machine learning.
+- Understand how LLMs and Generative AI applications work.
+- Build a basic RAG application and explore AI agents.
+- Develop practical projects that can be extended further.
+
+---
+
+**Learning by doing, one day at a time!**
+
